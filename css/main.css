@@ -1,0 +1,134 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+body {
+	background-color: #666;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+ a {
+	text-decoration: none;
+}
+
+ ul {
+	 padding: 0;
+	 margin: 0;
+	 list-style: none;
+ }
+
+ .side {
+	 width: 250px;
+	 margin: 20px;
+ }
+
+ .menu a {
+	 background: #3d3d3d;
+	 color: #fff;
+	 padding: 10px;
+	 display: block;
+	 border-bottom: 1px solid #666;
+	 transition: 0.5s all;
+ }
+
+.menu a:hover {
+	color: #666;
+	padding: 10px 0 10px 20px;
+}
+
+.menu li:first-child a,
+.menu li .menu__drop li:first-child a{
+	border-radius: 3px 3px 0 0;
+}
+
+.menu li:last-child a,
+.menu li .menu__drop li:last-child a{
+	border-radius: 0 0 3px 3px;
+	border-bottom: 0;
+}
+
+.menu li .menu__drop li a {
+	border-bottom: 1px solid #666;
+	border-radius: 0;
+}
+
+/*всплывающее меню*/
+
+.menu__list {
+	position: relative;
+}
+
+.menu__drop {
+	position: absolute;
+	top: -9999em;
+	width: 100%;
+	left: 100%;
+	opacity: 0;
+	transition: 1.5s opacity;
+	border-left: 5px solid transparent;
+}
+
+.menu__list:hover .menu__drop {
+	opacity: 1;
+	top: 0;
+}
+
+/*Иконки для всплывающих окон*/
+
+.menu__list::after {
+	content: "";
+	position: absolute;
+	border: 7px solid;
+	border-color: transparent transparent transparent #eee;
+	top: 0.8em;
+	right: 0.7em;
+	transition: 0.8s;
+}
+
+.menu__list:hover::after {
+	transform: scaleX(-1);
+}
+
+
+
+
+/*.menu {*/
+	/*!*visibility: hidden;*!*/
+	/*display: block;*/
+	/*position: relative;*/
+	/*!*z-index: 10;*!*/
+	/*!*!*    float: right;*!*!*/
+	/*!*margin-top: 7.32%;*!*/
+	/*!*width: 90%;*!*/
+	/*!*!*    height: 4.12766%;*!*!*/
+/*}*/
+
+/*!*.first_li {*!*/
+	/*!*display: inline-block;*!*/
+/*!*}*!*/
+
+/*.other_li {*/
+	/*display: none;*/
+/*}*/
+
+/*.menu:hover .other_li{*/
+	/*display: block;*/
+/*}*/
+
+/*a{*/
+	/*!*    margin-right: 6%;*!*/
+	/*text-decoration: none;*/
+	/*text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);*/
+	/*color: white;*/
+	/*font-family: "LeagueGothicRegular";*/
+	/*font-size: 24px;*/
+	/*font-weight: 400;*/
+	/*line-height: 34px;*/
+	/*text-transform: uppercase;*/
+/*}*/
+
+
+
+
+
+
+
